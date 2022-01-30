@@ -121,6 +121,8 @@ Sample product with a discount of 30% and product without a discount:
 #### Cache
 As we do not use a database, we use a cache to save data. We can use DB in the following versions.
 
+`@todo convert cache to DB` 
+
 #### Rout
 
 Routing uses the `gorilla/mux`. You can also add any new routing by adding it to this file: [rout.go](internal/server/rout.go)
