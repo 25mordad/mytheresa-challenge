@@ -121,7 +121,7 @@ Sample product with a discount of 30% and product without a discount:
 #### Cache
 As we do not use a database, we use a cache to save data. We can use DB in the following versions.
 
-`@todo convert cache to DB` 
+`@todo convert cache to DB`
 
 #### Rout
 
@@ -184,4 +184,17 @@ go test -cover ./...
 OR
 ```sh
 go test -cover -v ./...
+```
+
+#### Docker
+Build the image:
+
+```sh
+docker build -t mytheresa-challenge -f Dockerfile .
+```
+
+Run the image:
+
+```sh
+docker run mytheresa-challenge
 ```
